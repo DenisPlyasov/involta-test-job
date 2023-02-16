@@ -1,0 +1,577 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  margin: 0px auto;
+  max-height: 112px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%px;
+  height: 112px;
+}
+.header__logo {
+  position: absolute;
+  width: 111px;
+  height: 73px;
+  left: 280px;
+  top: 19px;
+}
+.header__row {
+  margin: 0px auto;
+  display: inline-flexbox;
+  margin-left: 490px;
+  padding: 0 10px;
+}
+.header__item {
+  flex: 0 0 12%;
+  display: inline-block;
+
+  flex-wrap: nowrap;
+  flex: 1 1 auto;
+  margin: 0 10px;
+  margin-top: 35px;
+  /* Гостиная */
+
+  left: 27.92%;
+  right: 66.56%;
+  top: 1.35%;
+  bottom: 97.9%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+
+  /* #2B2B2B */
+
+  color: #2b2b2b;
+}
+.content{
+  max-width: 1920px;
+
+}
+.content__links {
+  /* Главная / Каталог / Спальня / Постельное бельё */
+
+  position: absolute;
+  width: 307px;
+  height: 15px;
+  left: 510px;
+  top: 132px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  /* #2B2B2B */
+
+  color: #2b2b2b;
+}
+.content__goodsNumber{
+  text-align: center;
+  flex: 0 0 12%;
+  display: inline-block;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: center;
+  flex: 0 0 12%;
+  display: inline-block;
+
+  flex-wrap: nowrap;
+  margin: 0 10px;
+  margin-top: 25px;
+  margin-left: 670px;
+
+
+  padding: 5px;
+  padding-top: 6px;
+  padding-bottom: 1px;
+}
+
+.header__row2 {
+  display: inline-flexbox;
+}
+.item2 {
+  display: inline-block;
+}
+.content__heading {
+  /* Постельное бельё */
+
+  position: absolute;
+  width: 355px;
+  height: 48px;
+  left: 510px;
+  top: 158px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.03em;
+
+  /* #2B2B2B */
+
+  color: #2b2b2b;
+}
+.content__subtext {
+  position: absolute;
+  width: 1130px;
+  height: 78px;
+  margin-left: 510px;
+  top: 222px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+  /* or 162% */
+
+  letter-spacing: -0.03em;
+
+  /* #2B2B2B */
+
+  color: #2b2b2b;
+}
+.content__buttons {
+  display: inline-flexbox;
+  margin-left: 500px;
+  padding-top: 140px;
+}
+.content__button-1 {
+  width: 137px;
+  height: 28px;
+  left: 510px;
+  top: 320px;
+  text-align: center;
+  flex: 0 0 12%;
+  display: inline-block;
+
+  flex-wrap: nowrap;
+  margin: 0 10px;
+  margin-top: 35px;
+  margin-right: -5px;
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+
+  border: 1px solid #000000;
+  padding: 5px;
+  padding-top: 1px;
+  border-radius: 3px;
+  padding-bottom: 1px;
+}
+.content__button-2 {
+  width: 96px;
+  height: 28px;
+  left: 657px;
+  top: 320px;
+  border: 1px solid #000000;
+  padding: 10px;
+  padding-top: 0;
+  text-align: center;
+  flex: 0 0 12%;
+  display: inline-block;
+
+  flex-wrap: nowrap;
+  margin: 0 10px;
+  margin-top: 35px;
+  margin-right: -5px;
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+
+  border: 1px solid #000000;
+  padding: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 3px;
+  text-align: center;
+}
+.content__button-3 {
+  width: 73px;
+  height: 28px;
+  left: 510px;
+  top: 320px;
+  border: 1px solid #000000;
+  padding-top: 0;
+  text-align: center;
+  flex: 0 0 12%;
+  display: inline-block;
+
+  flex-wrap: nowrap;
+  flex: 1 1 auto;
+  margin: 0 10px;
+  margin-top: 35px;
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+
+  border: 1px solid #000000;
+  padding: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  text-align: center;
+
+  color: #fff;
+  border-radius: 3px;
+  outline: none;
+  box-shadow: none;
+}
+.content__row {
+  margin: 0px auto;
+  display: inline-flexbox;
+  margin-left: 490px;
+  padding: 0 0px;
+}
+.content__item {
+  flex: 0 0 5%;
+  display: inline-block;
+
+  flex-wrap: nowrap;
+  flex: 1 1 auto;
+  margin: 0 10px;
+  margin-top: 35px;
+  margin-right: -15px;
+}
+.content__pic {
+  flex: 0 0 5%;
+  display: inline-block;
+
+  flex-wrap: nowrap;
+  flex: 1 1 auto;
+  margin: 0 10px;
+  margin-top: 35px;
+}
+.content__subtitle-1{
+  /* flex: 0 0 12%;
+  display: flexbox;
+
+  display: flex;
+  justify-content: space-between;
+  text-align: left; */
+
+  flex: 0 0 12%;
+  display: inline-block;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.content__subtitle-2{
+  /* flex: 0 0 12%;
+  display: flexbox;
+  justify-content: space-between;
+
+  display: flex;
+  text-align: right; */
+
+  flex: 0 0 12%;
+  display: inline-block;
+  
+  justify-content: space-between;
+  align-items: right;
+  padding-left: 190px;
+  
+
+}
+.content__links{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content__button-5 {
+  width: 100px;
+  height: 34px;
+  left: 510px;
+  top: 320px;
+  text-align: center;
+  flex: 0 0 12%;
+  display: inline-block;
+
+  flex-wrap: nowrap;
+  margin: 0 10px;
+  margin-top: 25px;
+  margin-right: -5px;
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+
+  border: 1px solid #000000;
+  padding: 5px;
+  padding-top: 7px;
+  padding-bottom: 1px;
+}
+.content__button-4 {
+  width: 34px;
+  height: 34px;
+  left: 510px;
+  top: 320px;
+  text-align: center;
+  flex: 0 0 12%;
+  display: inline-block;
+
+  flex-wrap: nowrap;
+  margin: 0 10px;
+  margin-top: 25px;
+  margin-right: -5px;
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+
+  border: 1px solid #000000;
+  padding: 5px;
+  padding-top: 6px;
+  padding-bottom: 1px;
+}
+.content__buttons2 {
+  display: inline-flexbox;
+  margin-left: 0px;
+  padding-top: 50px;
+}
+.content__button-6 {
+  width: 100px;
+  height: 34px;
+  left: 510px;
+  top: 320px;
+  text-align: center;
+  flex: 0 0 12%;
+  display: inline-block;
+
+  flex-wrap: nowrap;
+  margin: 0 10px;
+  margin-top: 25px;
+  margin-left: 367px;
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+
+  border: 1px solid #000000;
+  padding: 5px;
+  padding-top: 6px;
+  padding-bottom: 1px;
+}
+.content__middleText{
+  max-width: 1096px;
+  word-wrap: normal;
+}
+.content__middleText-1{
+  max-width: 1096px;
+}
+.content__middleText-2{
+  max-width: 1096px;
+  margin-top: 150px;
+}
+.content__middleText-3{
+  max-width: 1096px;
+  margin-top: 330px;
+}
+.content__middleText-heading{
+  position: absolute;
+  width: 178px;
+  height: 29px;
+  margin-left: 509px;
+  margin-top: 60px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  letter-spacing: -0.03em;
+
+  /* #2B2B2B */
+
+  color: #2B2B2B;
+}
+.content__middleText-inside{
+  position: absolute;
+  width: 1096px;
+  height: 78px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 100px;
+  margin-left: 509px;
+
+  letter-spacing: -0.03em;
+
+  color: #2B2B2B;
+}
+.content__line-1{
+  position: absolute;
+  width: 1359px;
+  height: 0px;
+  margin-left: 280px;
+  /* top: 2834px; */
+  margin-top: 250px;
+
+  /* #2B2B2B */
+
+  border: 1px solid #2B2B2B;
+}
+.content__bottom-info{
+  width: 111px;
+  height: 73px;
+  margin-left: 280px;
+  margin-top: 600px;
+}
+.content__bottom-text1{
+  position: absolute;
+  width: 114px;
+  height: 24px;
+  left: 511px;
+  top: 2869px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  display: inline-block;
+
+  /* #2B2B2B */
+
+  color: #2B2B2B;
+}
+.bottom__text1{
+  height: 24px;
+  margin-left: 511px;
+  width: 124px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  display: inline-block;
+  justify-content: space-around;
+  word-wrap: nowrap;
+
+  /* #2B2B2B */
+
+  color: #2B2B2B;
+  /* ------------------------------- */
+  margin-top: 5px;
+
+  flex: 0 0 5%;
+  display: inline-block;
+
+  flex-wrap: nowrap;
+  flex: 1 1 auto;
+  margin: 0 10px;
+  /* margin-top: 35px; */
+  /* margin-right: -15px; */
+}
+.bottom__text2{
+  width: 147px;
+  height: 19px;
+  margin-left: 673px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  /* #2B2B2B */
+
+  color: #2B2B2B;
+  display: inline-block;
+  justify-content: space-around;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* ------------------------------- */
+  margin-top: 5px;
+
+  flex: 0 0 5%;
+  display: inline-block;
+
+  flex-wrap: nowrap;
+  flex: 1 1 auto;
+  margin: 0 10px;
+  /* margin-top: 35px; */
+  /* margin-right: -15px; */
+}
+.bottom{
+    flex: 0 0 5%;
+    display: inline-block;
+  
+    flex-wrap: nowrap;
+    flex: 1 1 auto;
+    margin: 0 10px;
+    padding: 10px auto;
+    justify-content: space-around;
+    margin: 0px auto;
+    padding: 0 5px;
+    max-width: 1359px;
+    max-height: 254px;
+    flex-wrap: nowrap;
+    
+  /* ------------------------------- */
+  flex: 0 0 5%;
+  display: inline-block;
+
+  flex-wrap: nowrap;
+  flex: 1 1 auto;
+  margin: 0 5px;
+  margin-top: 5px;
+  /* margin-right: -15px; */
+  margin-left: 480px;
+
+}
+.bottom__text3{
+  position: absolute;
+  width: 95px;
+  height: 24px;
+  left: 1432px;
+  top: 2869px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  margin-top: 5px;
+  /* #2B2B2B */
+  
+  color: #2B2B2B;
+  flex: 0 0 5%;
+  display: inline-block;
+
+  flex-wrap: nowrap;
+  flex: 1 1 auto;
+  margin: 0 10px;
+  /* margin-top: 35px; */
+  /* margin-right: -15px; */
+}
